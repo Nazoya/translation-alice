@@ -1,0 +1,40 @@
+{
+  "$schema": "https://inlang.com/schema/project-settings",
+  "sourceLanguageTag": "en",
+  "languageTags": [
+    "en",
+    "ar",
+    "bn",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "es",
+    "fi",
+    "fil",
+    "fr",
+    "hi",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "ms",
+    "pt",
+    "ru",
+    "sv",
+    "th",
+    "tr",
+    "vi",
+    "zh-CN",
+    "zh-TW",
+    "ta",
+    "pl",
+    "he"
+  ],
+  "modules": [
+    "https://cdn.jsdelivr.net/npm/@inlang/plugin-next-intl@latest/dist/index.js"
+  ],
+  "plugin.inlang.nextIntl": {
+    "pathPattern": "./messages/{languageTag}.json"
+  }
+}
